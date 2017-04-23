@@ -14,3 +14,7 @@ function logowanie() {
 	window.location.assign("logowanie.html")
 }
 
+function zalogujSie() {
+	window.location.assign("aliexpressrecenzje.html")
+}
+
