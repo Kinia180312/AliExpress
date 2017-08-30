@@ -1,3 +1,19 @@
-<p>
-  view-opinion works!
-</p>
+<table class="cs-table table table-striped">
+    <thead>
+      <tr>
+        <th>a</th>
+        <th>b</th>
+        <th>c</th>
+        <th>d</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let opinio of opinion; let i = index"  class="row-car">
+        <td>  {{ opinio?.id }}</td>
+        <td> {{ opinio?.name }}</td>
+        <td> {{ opinio?.content }}</td>
+        <td> {{ opinio?.user }}</td>
+      </tr>
+    </tbody>
+  </table>
